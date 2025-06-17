@@ -1,0 +1,11 @@
+estrutura de dados - Função recursiva
+
+modulo 
+  -> subsistema
+  -> conjunto de funções
+recursividado (não é muito utlizado por usar muita mmória e espaço)
+  -> sistema chama a si mesmo para resolver um problema
+  Tipos:
+    Direta: já possui um caso base, qu retorna pra si mesmo
+    Indireta: que chama a si mesmop mas em aplicações diferentes
+  Exemplo: numa função para calcular o fatorial de um número, a função chama-se para realizar o fatorial de (n-1)
