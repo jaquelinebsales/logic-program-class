@@ -1,11 +1,27 @@
-estrutura de dados - Função recursiva
+Estrutura de dados - Função recursiva
 
 modulo 
   -> subsistema
   -> conjunto de funções
-recursividado (não é muito utlizado por usar muita mmória e espaço)
+
+recursividade (não é muito utlizado por usar muita mmória e espaço)
   -> sistema chama a si mesmo para resolver um problema
   Tipos:
     Direta: já possui um caso base, qu retorna pra si mesmo
     Indireta: que chama a si mesmop mas em aplicações diferentes
   Exemplo: numa função para calcular o fatorial de um número, a função chama-se para realizar o fatorial de (n-1)
+
+##
+Uma função recursiva é uma função que, durante sua execução,
+chama a si mesma direta ou indiretamente para resolver um problema.
+A recursão é uma técnica poderosa em programação, especialmente útil
+para problemas que podem ser divididos em subproblemas menores e similares ao original.
+
+Características de uma Função Recursiva:
+Caso Base – Condição que interrompe a recursão, evitando um loop infinito.
+
+Passo Recursivo – Chamada da própria função com um subproblema menor.
+
+
+
+*A soma individuais dos índices de uma diagonal secundária é igual ao tamanho da matriz(se for quadrada) menos 1
